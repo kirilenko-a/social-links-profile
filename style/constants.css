@@ -1,0 +1,30 @@
+:root {
+    --bg-color: hsl(0, 0%, 8%);
+    --profile-card-color: hsl(0, 0%, 12%);
+    --btn-color: hsl(0, 0%, 12%);
+    --white: hsl(0, 0%, 100%);
+    --green: hsl(75, 94%, 57%);
+    --main-font-size: 14px;
+    --main-font: "Inter", sans-serif;
+}
+
+@font-face {
+    font-family: "Inter", sans-serif;
+    src: url("../assets/fonts/static/Inter-Regular.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter", sans-serif;
+    src: url("../assets/fonts/static/Inter-SemiBold.ttf") format("ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter", sans-serif;
+    src: url("../assets/fonts/static/Inter-Bold.ttf") format("ttf");
+    font-weight: 700;
+    font-style: normal;
+}
