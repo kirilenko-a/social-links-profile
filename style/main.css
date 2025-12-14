@@ -44,7 +44,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     gap: 24px;
     width: 100%;
     border-radius: 12px;
@@ -62,7 +61,6 @@ a {
 .profile-card__links {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     gap: 16px;
 }
@@ -76,6 +74,7 @@ a {
 
 .profile-card__photo {
     display: block;
+    align-self: center;
     width: 88px;
     height: 88px;
     border-radius: 50%;
@@ -96,12 +95,14 @@ a {
 }
 
 .profile-card__bio {
+    align-self: center;
     font-weight: 400;
     line-height: 150%;
     letter-spacing: 0;
 }
 
 .profile-card__btn {
+
     width: 100%;
     border-radius: 8px;
     background-color: var(--btn-color);
@@ -114,7 +115,7 @@ a {
 
 .profile-card__link {
     display: block;
-    padding: 12px 115px;
+    padding: 12px;
     width: 100%;
     text-align: center;
     font-weight: 600;
